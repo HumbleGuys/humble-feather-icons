@@ -16,8 +16,8 @@ $icons = collect(app('files')->files(basePath('src/resources/components')))->map
     </div>
 
     <div style="padding:5rem;">
-        <x-featherIcons::chevron-left style="width:4rem;height:4rem;" :stroke-width="2" />
+        <x-featherIcons::chevronLeft style="width:4rem;height:4rem;" :stroke-width="2" />
 
-        <x-featherIcons::chevron-right style="width:4rem;height:4rem;" :stroke-width="3" />
+        <x-featherIcons::chevronRight style="width:4rem;height:4rem;" :stroke-width="3" />
     </div>
 </x-layout>
